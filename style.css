@@ -1,0 +1,185 @@
+.primary-btn{
+    color: #FFFFFF;
+background-color: #4E47FF;
+border-radius: 10px;
+padding: 12px 36px;
+font-size: 15px;
+font-weight: bold;
+margin-top: 51.5px;
+margin-bottom: 51.5px;
+border: none;
+width: 229px;
+height: 48px;
+}
+
+
+
+/* nav styles */
+.logo{
+font-size: 34px;
+color: #4E47FF;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+
+/* banner styles */
+header{
+    background-image: url('Assets/Hero-bg.png');
+}
+.banner-content{
+    margin: 158px 267.5px 152px 267.5px;
+    text-align: center;
+}
+
+.banner-content h4{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+/* see-it-in-action */
+
+.see-it-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 141px;
+    align-items: center;
+    width: 1140px;
+    height: 328px;
+}
+
+.see-it{
+text-align: left;
+width: 517px;
+height: 203px;
+padding: 62.5px 623px 62.5px 0px;
+}
+
+ .see-it h6{
+font-size: 40px;
+font-weight: bold;
+}
+
+.see-it p{
+font-size: 24px;
+color: #252432;
+opacity: 0.5;
+}
+
+.wc-mini img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    /* padding: 0px 0px 0px 737px; */
+
+}
+
+
+
+/* Users Statstics */
+
+.statstics-container{
+    margin: 166px 159px 137px 159px;
+    width: 1140px;
+    height: 306px;
+    background-color: #4E47FF;
+    opacity: 0.1;
+
+}
+
+.statstics-container p{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+
+}
+
+.stat{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-detail{
+    text-align: center;
+}
+
+.stat-detail h2{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.stat-detail p{
+    color: #000000;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+
+
+/* Users review */
+
+.review{
+    margin: 137px 149px;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    width: 1140px;
+    height: 342px;
+   
+    
+}
+
+.review-title{
+font-size: 42px;
+font-weight: bold;
+text-align: center;
+color: #252432;
+}
+
+.review-container{
+    display: flex;
+  
+}
+
+.review-box{
+    width: 318.67px;
+    height: 81px;
+    border-radius: 14px;
+}
+
+.review-star{
+    width: 116px;
+    height: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+/* .profile-img{
+    padding: 24px 302.67px 30px 24px;
+ 
+    width: 40px;
+    height: 40px;
+} */
+
+.reviewer-details{
+    text-align: left;
+    padding: 24px 24px 24px 12px;
+}
+
+
+
+.date{
+font-size: 12px;
+opacity: 0.7;
+}
+
