@@ -12,6 +12,10 @@ width: 229px;
 height: 48px;
 }
 
+body{
+    background-color:#e3e3fa;
+}
+
 
 
 /* nav styles */
@@ -31,6 +35,7 @@ nav{
 /* banner styles */
 header{
     background-image: url('Assets/Hero-bg.png');
+    margin: 0px 0px 116px;
 }
 .banner-content{
     margin: 158px 267.5px 152px 267.5px;
@@ -40,6 +45,11 @@ header{
 .banner-content h4{
     font-size: 65px;
     font-weight: bold;
+    margin-bottom: 37px;
+}
+
+.stay-focused-btn{
+    margin: 0px auto 152px auto;
 }
 
 
@@ -48,7 +58,7 @@ header{
 .see-it-container{
     display: flex;
     justify-content: space-between;
-    margin: 120px 141px;
+    margin: 0px 141px 116px 141px;
     align-items: center;
     width: 1140px;
     height: 328px;
@@ -58,18 +68,25 @@ header{
 text-align: left;
 width: 517px;
 height: 203px;
-padding: 62.5px 623px 62.5px 0px;
+padding: 62.5px auto 62.5px 0px;
 }
 
  .see-it h6{
 font-size: 40px;
 font-weight: bold;
+margin-bottom: 16px;
 }
 
 .see-it p{
 font-size: 24px;
 color: #252432;
 opacity: 0.5;
+font-weight: lighter;
+margin-bottom: 23px;
+}
+
+.launch-btn{
+    margin: 0px auto 0px 0px;
 }
 
 .wc-mini img{
