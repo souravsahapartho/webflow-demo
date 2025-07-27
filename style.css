@@ -1,15 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .primary-btn{
     color: #FFFFFF;
 background-color: #4E47FF;
 border-radius: 10px;
 padding: 12px 36px;
-font-size: 15px;
-font-weight: bold;
+font-size: 16px;
+font-weight: 500;
 margin-top: 51.5px;
 margin-bottom: 51.5px;
 border: none;
 width: 229px;
 height: 48px;
+font-family: "Raleway", sans-serif;
 }
 
 body{
@@ -21,12 +29,6 @@ body{
 
 
 /* nav styles */
-.logo{
-font-size: 34px;
-color: #4E47FF;
-
-}
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -34,10 +36,22 @@ nav{
 }
 
 
+.logo{
+font-size: 34px;
+color: #4E47FF;
+margin: 50px auto 50px 0;
+font-family: "Inter", sans-serif;
+}
+
+.nav-btn{
+    width: 132px;
+    height: 48px;
+}
+
+
 /* banner styles */
 header{
     background-image: url('Assets/Hero-bg.png');
-    /* margin: 0px 0px 116px; */
 }
 .banner-content{
     margin: 158px 267.5px 152px 267.5px;
@@ -48,6 +62,7 @@ header{
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 37px;
+    font-family: "Raleway", sans-serif;
 }
 
 .stay-focused-btn{
@@ -70,14 +85,14 @@ text-align: left;
 width: 517px;
 height: 203px;
 padding: auto;
-/* padding: 62.5px auto 62.5px 0px; */
+
 }
 
  .see-it h6{
 font-size: 40px;
 font-weight: bold;
-margin-bottom: 16px;
-margin: auto;
+margin-bottom: 23px;
+font-family: "Raleway", sans-serif;
 }
 
 .see-it p{
@@ -86,6 +101,7 @@ color: #252432;
 opacity: 0.5;
 font-weight: lighter;
 margin-bottom: 23px;
+font-family: "Raleway", sans-serif;
 }
 
 .launch-btn{
@@ -97,7 +113,7 @@ margin-bottom: 23px;
     height: 328px;
     border-radius: 48px;
     margin: auto;
-    /* padding: 0px 0px 0px 737px; */
+
 
 }
 
@@ -116,19 +132,19 @@ margin-bottom: 23px;
 
 }
 
-/* .statstics-container-box{} */
-
 .stat-headline{
     margin-top:10px;
     font-size: 38px;
     font-weight: bold;
     color: #252432;
-    margin-bottom: auto;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
 }
 
 .stat{
     display: flex;
     justify-content: space-around;
+    font-family: "Inter", sans-serif;
 }
 
 .stat-detail{
@@ -169,6 +185,7 @@ font-weight: bold;
 text-align: center;
 color: #252432;
 margin-bottom: 50px;
+font-family: "Raleway", sans-serif;
 }
 
 .review-container{
@@ -188,11 +205,13 @@ margin-bottom: 50px;
 }
 
 .review-box h2{
-       margin: 24px auto 12px 24px;
+       margin: 24px 24px 12px 24px;
 }
 
-.review-box p{
-       margin: 24px auto 12px 24px;
+.loremipsum{
+      margin-bottom: 10px;
+      margin-left: 24px;
+      margin-right: 24px;
 }
 
 .review-star{
@@ -203,28 +222,30 @@ margin-bottom: 50px;
 
 .profile{
     display: flex;
-   margin: 24px auto 12px 24px;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 24px;
     
 }
 
-.profile-img{
-    margin: 0px 0px auto 0px;
+.profile-img img{
+    margin-left: 24px;
     width: 40px;
     height: 40px;
-    /* border-radius: 50px;
-    object-fit: cover; */
+    border-radius: 50%;
 }
 
 
-.reviewer-details{
-    text-align: left; 
-     width: 266.67px;
-    height: 46px;
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c2929;
 }
 
 
 .date{
-font-size: 12px;
+font-size: 14px;
 font-weight: lighter;
 opacity: 0.7;
 }
@@ -245,6 +266,7 @@ opacity: 0.7;
     font-size: 50px;
     font-weight: bold;
    margin-bottom: 20px;
+   font-family: "Raleway", sans-serif;
 }
 
 .ready-details{
@@ -274,19 +296,24 @@ opacity: 0.7;
 /* Get in Touch styles */
 
 .support-box{
-    width: 1140px;
+    width: 1100px;
     height: 632px;
     display: flex;
-    margin: 0px 150px 0px 150px;
+    gap: 50px;
+    margin: 0px 150px 0px 110px;
 }
 
 .support-box h6{
     text-align: left;
-    width: 528px;
+    width: 500px;
     height: 232px;
-    font-size: 90px;
-    font-weight: 500;
+    font-size: 97px;
+    margin: 200px auto 200px 0;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+
 }
+
 
 .form{
 width: 497px;
@@ -301,7 +328,8 @@ padding-bottom: 71px;
         font-size: 18px;
         color: #000000;
         margin-bottom: 10px;
-     
+     font-family: "Inter", sans-serif;
+
 }
 
 .form input, textarea{
@@ -336,6 +364,7 @@ padding-bottom: 71px;
 
 .form ::placeholder{
     padding: 20px 32px;
+    font-family: "Inter", sans-serif;
 }
 
 
