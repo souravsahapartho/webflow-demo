@@ -113,15 +113,18 @@ margin-bottom: 23px;
     border-radius: 24px;
     text-align: center;
     margin: 80px auto auto auto;
+    padding-top: 40px;
 
 }
 
 /* .statstics-container-box{} */
 
 .stat-headline{
+    margin-top:10px;
     font-size: 38px;
     font-weight: bold;
     color: #252432;
+    margin-bottom: auto;
 }
 
 .stat{
