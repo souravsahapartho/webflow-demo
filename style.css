@@ -97,9 +97,7 @@ font-family: "Raleway", sans-serif;
 
 .see-it p{
 font-size: 24px;
-color: #252432;
-opacity: 0.5;
-font-weight: lighter;
+color: #25243280;
 margin-bottom: 23px;
 font-family: "Raleway", sans-serif;
 }
@@ -202,6 +200,7 @@ font-family: "Raleway", sans-serif;
     width: 366.67px;
     height: 243px;
     border-radius: 14px;
+    font-family: "Inter", sans-serif;
 }
 
 .review-box h2{
@@ -246,7 +245,7 @@ font-family: "Raleway", sans-serif;
 
 .date{
 font-size: 14px;
-font-weight: lighter;
+color: #252432;
 opacity: 0.7;
 }
 
@@ -369,5 +368,37 @@ padding-bottom: 71px;
 
 
 /* Big Logo Design */
+
+.big-logo{
+ 
+    text-align: center;
+font-family: "Inter", sans-serif;
+ background-color: #FFFFFF;
+    padding: 104px 455px 103px 454px;
+}
+
+.big-logo-box{
+   width: 531px;
+    height: 221px;
+}
+
+.big-logo h1{
+ font-size: 100px;
+
+
+color: #4E47FF;
+}
+
+.big-logo p{
+   color: #8987A1;
+}
+
+.big-logo ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 64px 0px 64px;
+    color: #8987A1;
+  list-style: none;
+}
 
 
