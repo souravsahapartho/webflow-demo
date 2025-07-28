@@ -370,7 +370,8 @@ padding-bottom: 71px;
 /* Big Logo Design */
 
 .big-logo{
- 
+ width: 1440px;
+ height: 428px;
     text-align: center;
 font-family: "Inter", sans-serif;
  background-color: #FFFFFF;
